@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#000000</string>
+    </void>
+    <void property="_start_x">
+     <int>210</int>
+    </void>
+    <void property="_start_y">
+     <int>84</int>
+    </void>
+    <void property="end_x">
+     <int>210</int>
+    </void>
+    <void property="end_y">
+     <int>374</int>
+    </void>
+    <void property="name">
+     <string>line</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>3</int>
+    </void>
+    <void property="_color">
+     <string>#ff0000</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>521</int>
+    </void>
+    <void property="_start_y">
+     <int>149</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>66</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>3</int>
+    </void>
+    <void property="_color">
+     <string>#ff0000</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>749</int>
+    </void>
+    <void property="_start_y">
+     <int>323</int>
+    </void>
+    <void property="major_axis">
+     <int>98</int>
+    </void>
+    <void property="minor_axis">
+     <int>39</int>
+    </void>
+    <void property="name">
+     <string>ellipse</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>3</int>
+    </void>
+    <void property="_color">
+     <string>#ff0000</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>407</int>
+    </void>
+    <void property="_start_y">
+     <int>326</int>
+    </void>
+    <void property="end_x">
+     <int>401</int>
+    </void>
+    <void property="end_y">
+     <int>364</int>
+    </void>
+    <void property="name">
+     <string>triangle</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>3</int>
+    </void>
+    <void property="_color">
+     <string>#ff0000</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>250</int>
+    </void>
+    <void property="_start_y">
+     <int>496</int>
+    </void>
+    <void property="length">
+     <int>66</int>
+    </void>
+    <void property="name">
+     <string>rect</string>
+    </void>
+    <void property="width">
+     <int>125</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

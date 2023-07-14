@@ -1,0 +1,60 @@
+<div class="containers">
+  <div class="sideBar">
+    <div class="holder">
+      <p class="title"><i style="margin-right: 5px;" class="fas fa-shapes"></i>Shapes</p>
+      <div class="holder1">
+        <div class="holder2" >
+          <button class="drawingbuttons" (click)="SelectTool('line');enableDisableRule('line')" [ngClass]="{'grey' : toggleL, 'red': !toggleL}">Line</button>
+          <button class="drawingbuttons" (click)="SelectTool('rect');enableDisableRule('rectangle')" [ngClass]="{'grey' : toggleR, 'red': !toggleR}">Rectangle</button>
+          <button class="drawingbuttons" (click)="SelectTool('square');enableDisableRule('square')" [ngClass]="{'grey' : toggleS, 'red': !toggleS}">Square</button>
+        </div>
+        <div class="holder2">
+        <button class="drawingbuttons" (click)="SelectTool('triangle');enableDisableRule('triangle')" [ngClass]="{'grey' : toggleT, 'red': !toggleT}">Triangle</button>
+        <button class="drawingbuttons" (click)="SelectTool('circle');enableDisableRule('circle')" [ngClass]="{'grey' : toggleC, 'red': !toggleC}">Circle</button>
+        <button class="drawingbuttons" (click)="SelectTool('ellipse');enableDisableRule('ellipse')" [ngClass]="{'grey' : toggleE, 'red': !toggleE}">Ellipse</button>
+      </div>
+      </div>
+    </div>
+    <div class="holder">
+      <p class="title"><i style="margin-right: 5px;" class="fas fa-edit"></i>Edit</p>
+      <div class="holder1">
+        <div class="holder2">      
+          <button class="drawingbuttons" (click)="SelectMode('move');enableDisableRule('move')" [ngClass]="{'grey' : toggleM, 'red': !toggleM}">Move</button>
+          <button class="drawingbuttons" (click)="SelectMode('delete');enableDisableRule('delete')" [ngClass]="{'grey' : toggleD, 'red': !toggleD}">Delete</button>
+        </div>
+        <div class="holder2">
+        <button class="drawingbuttons" (click)="SelectMode('copy');enableDisableRule('copy')" [ngClass]="{'grey' : toggleCO, 'red': !toggleCO}">Copy</button>
+        <button class="drawingbuttons" (click)="SelectMode('paste');enableDisableRule('paste')" [ngClass]="{'grey' : toggleP, 'red': !toggleP}" [disabled]="!ShapeWasCopied">Paste</button> 
+        </div>
+      </div>
+      <div class="holder1" >
+        <button class="drawingbuttons" (click)="SelectMode('resize');enableDisableRule('resize')" [ngClass]="{'grey' : toggleRS, 'red': !toggleRS}">Resize</button>
+        <input type="range" min="0.05" max="5" step="0.05" id="scaling" *ngIf="ResizingEnabled" style="width: 70%;accent-color: red;" [(ngModel)]="sizing" (change)="change()" (ngModelChange)="update()">
+      </div>
+    </div>
+    <div class="styling">
+      <div style="font-size: 15px;">
+        <p class="titleStyle"><i style="margin-right: 5px;"  class="fa-solid fa-volume-off"></i>font size:</p>
+        <div class="slider">
+          <input type="range" style="width: 90%;" min="1"  max="10" step="1" value="5" [(ngModel)]="size" />
+        </div>
+      </div>
+      <div  style="border-top: 1px solid black; border-bottom: 1px solid black; font-size: 15px;">
+        <i style="margin-right: 5px;" class="fas fa-palette"></i>color: <input class="btun" type="color" [(ngModel)]="color" />
+      </div>
+      <div style="font-size: 15px;"><i style="margin-right: 5px;" class="fa-solid fa-paintbrush"></i>Fill shape: <input  type="checkbox" style="position: relative; top: 3px; border: 1px solid;" [(ngModel)]="fill" /></div>
+
+    </div>
+
+    <div class="extra">
+      <button class="extrabuttons" (click)="loadDraw();enableDisableRule('load')"  title="Load"><i class="fa-solid fa-cloud-arrow-up"></i></button>
+      <button class="extrabuttons" (click)="saveDraw();enableDisableRule('save')" title="Save As"><i class="fa-solid fa-floppy-disk"></i></button>
+      <button class="extrabuttons" (click)="undo();enableDisableRule('undo')" title="Undo"> <i class="fa-sharp fa-solid fa-rotate-left"></i></button>
+      <button class="extrabuttons" (click)="redo();enableDisableRule('redo')" title="Redo"><i class="fa-sharp fa-solid fa-rotate-right"></i></button>
+
+    </div>
+  </div>
+
+  <canvas #drawboard class="board" (mousedown)="onmousedown($event)" (mousemove)="onmousemove($event)"
+  (mouseup)="onmouseup($event)" (mouseleave)="onmouseleave($event)"></canvas>
+</div>

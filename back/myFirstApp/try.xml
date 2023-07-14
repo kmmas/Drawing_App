@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.4.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#000000</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>494</int>
+    </void>
+    <void property="_start_y">
+     <int>315</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>168</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#000000</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>345</int>
+    </void>
+    <void property="_start_y">
+     <int>131</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>92</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#000000</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>625</int>
+    </void>
+    <void property="_start_y">
+     <int>123</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>92</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#f5f5f5</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>427</int>
+    </void>
+    <void property="_start_y">
+     <int>271</int>
+    </void>
+    <void property="major_axis">
+     <int>28</int>
+    </void>
+    <void property="minor_axis">
+     <int>53</int>
+    </void>
+    <void property="name">
+     <string>ellipse</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#f5f5f5</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>556</int>
+    </void>
+    <void property="_start_y">
+     <int>273</int>
+    </void>
+    <void property="major_axis">
+     <int>28</int>
+    </void>
+    <void property="minor_axis">
+     <int>53</int>
+    </void>
+    <void property="name">
+     <string>ellipse</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#000000</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>426</int>
+    </void>
+    <void property="_start_y">
+     <int>277</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>13</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#000000</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>557</int>
+    </void>
+    <void property="_start_y">
+     <int>274</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>13</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#ec1313</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>487</int>
+    </void>
+    <void property="_start_y">
+     <int>345</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>46</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#ffffff</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>501</int>
+    </void>
+    <void property="_start_y">
+     <int>338</int>
+    </void>
+    <void property="major_axis">
+     <int>12</int>
+    </void>
+    <void property="minor_axis">
+     <int>7</int>
+    </void>
+    <void property="name">
+     <string>ellipse</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#9a9393</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>339</int>
+    </void>
+    <void property="_start_y">
+     <int>132</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>63</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#9a9393</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>625</int>
+    </void>
+    <void property="_start_y">
+     <int>115</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>63</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#f2af78</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>493</int>
+    </void>
+    <void property="_start_y">
+     <int>421</int>
+    </void>
+    <void property="major_axis">
+     <int>112</int>
+    </void>
+    <void property="minor_axis">
+     <int>20</int>
+    </void>
+    <void property="name">
+     <string>ellipse</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#fafafa</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>427</int>
+    </void>
+    <void property="_start_y">
+     <int>276</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>3</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#fafafa</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>557</int>
+    </void>
+    <void property="_start_y">
+     <int>276</int>
+    </void>
+    <void property="name">
+     <string>circle</string>
+    </void>
+    <void property="radius">
+     <int>3</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#f79797</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>486</int>
+    </void>
+    <void property="_start_y">
+     <int>422</int>
+    </void>
+    <void property="major_axis">
+     <int>76</int>
+    </void>
+    <void property="minor_axis">
+     <int>17</int>
+    </void>
+    <void property="name">
+     <string>ellipse</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#fe3434</string>
+    </void>
+    <void property="_fill">
+     <boolean>true</boolean>
+    </void>
+    <void property="_start_x">
+     <int>484</int>
+    </void>
+    <void property="_start_y">
+     <int>423</int>
+    </void>
+    <void property="major_axis">
+     <int>34</int>
+    </void>
+    <void property="minor_axis">
+     <int>12</int>
+    </void>
+    <void property="name">
+     <string>ellipse</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

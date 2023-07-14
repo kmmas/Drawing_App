@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.example.myFirstApp.shape">
+    <void property="_LineWidth">
+     <int>1</int>
+    </void>
+    <void property="_color">
+     <string>#000000</string>
+    </void>
+    <void property="_start_x">
+     <int>1120</int>
+    </void>
+    <void property="_start_y">
+     <int>169</int>
+    </void>
+    <void property="name">
+     <string>square</string>
+    </void>
+    <void property="side1">
+     <int>-154</int>
+    </void>
+    <void property="side2">
+     <int>154</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
